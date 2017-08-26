@@ -1,0 +1,113 @@
+.header{
+	background: #fff!important;
+}
+
+.footer{
+	background: #fff!important;
+}
+
+.content{
+	padding-top: 68px;
+	background: #fff;
+}
+
+.content .row{
+	background: #f9f9f9;
+	padding: 26px 0;
+	border: 1px solid #e0dfdf;
+	margin-bottom: 109px;
+}
+
+.content .row .col-md-2{
+	text-align: center;
+}
+
+.content .row .col-md-4 p{
+	font-size: 14px;
+	color: #666;
+	line-height: 26px;
+}
+
+.content .row .col-md-4 p span{
+	color: #0066cc;
+}
+
+.content .row .col-md-4 p:nth-child(1){
+	font-size: 16px;
+	color: #0099ff;
+}
+
+.content .row .col-md-4 p:nth-child(3){
+	color: #828282;
+}
+
+.content .payment{
+	background: #f9f9f9;
+	border: 1px solid #e0dfdf;
+	padding: 44px 41px 22px 41px;
+}
+
+.content .payment .way{
+	padding-bottom: 27px;
+	width: 163px;
+	text-align: center;
+	border: 1px solid #e0dfdf;
+	border-bottom: 1px solid #fff;
+}
+
+.content .payment .way p{
+	color: #0099ff;
+	font-size: 16px;
+	line-height: 70px;
+}
+
+.content .payment .paymentType{
+	border: 1px solid #e0dfdf;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+.content .payment .choice{
+	width: 12px;
+	height: 12px;
+	background: url(../images/quan.png);
+	display: -webkit-inline-box;
+}
+
+.content .payment .hide{
+	background: url(../images/dian.png);
+}
+
+/*.content .payment .choice .noneHide{
+	display: block;
+}*/
+
+
+.content .payment .paymentType p{
+	margin-left: 7px;
+	font-size: 16px;
+	color: #666666;
+}
+
+.content .payment .paymentType .cyberBank{
+	display: -webkit-inline-box;
+}
+
+.content .payment .paymentType ul{
+	margin-left: 36px;
+}
+
+.content .payment .paymentType ul li{
+	width: 208px;
+	padding: 0 22px;
+	float: left;
+	margin-bottom: 44px;
+}
+
+.content .payment .paymentType .dashed{
+	border-bottom: 1px dashed #cccaca;
+	width: 1018px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 33px;
+}

@@ -1,0 +1,177 @@
+.content{
+	padding-top: 47px;
+	background: #f7f8f9;
+}
+
+.content .left{
+	width: 207px;
+	float: left;
+}
+
+.content .left .user{
+	overflow: hidden;
+	width: 207px;
+	background: #0066cc;
+	text-align: center;
+}
+
+.content .left .user p{
+	font-size: 18px;
+	color: #fff;
+	line-height: 53px;
+}
+
+.content .left .userList{
+	background: #fff;
+	overflow: hidden;
+	width: 207px;
+	padding-bottom: 48px;
+}
+
+.content .left .userList ul{
+	margin: 0 auto;
+	display: table;
+}
+
+.content .left .userList .listHeader a{
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	margin-left: 16px;
+	margin-top: 44px;
+}
+
+.content .left .userList ul li a{
+	font-size: 14px;
+	color: #666666;
+	margin-left: 37px;
+	line-height: 26px;
+}
+
+.content .left .userList .active{
+	color: #0099ff!important;
+}
+
+.content .left .userList ul li a:hover{
+	color: #0099ff;
+}
+
+.content .right{
+	overflow: hidden;
+	width: 936px;
+	float: right;
+	background: #fff;
+}
+
+.content .right .orderList{
+	padding-left: 12px;
+	padding-top: 8px;
+	overflow: hidden;
+	border-bottom: 1px solid #999999;
+	margin-bottom: 66px;
+}
+
+.content .right .orderList ul li{
+	float: left;
+	margin-right: 35px;
+	width: 100px;
+	text-align: center;
+}
+
+.content .right .orderList .active{
+	border-bottom: 2px solid #0099ff;
+}
+
+.content .right .orderList ul li:hover{
+	border-bottom: 2px solid #0099ff;
+
+}
+
+.content .right .orderList ul li a{
+	line-height: 44px;
+	font-size: 16px;
+	color: #333333;
+}
+
+.content .right .row{
+	vertical-align: middle;
+	margin-bottom: 85px;
+}
+
+.content .right .row img{
+	margin-left: 35px;
+	margin-top: 4px;
+}
+
+.content .right .row .col-md-4 p{
+	font-size: 18px;
+	color: #666666;
+	line-height: 34px;
+}
+
+.content .right .row .col-md-4 span{
+	font-size: 14px;
+	color: #999999;
+	line-height: 42px;
+}
+
+.content .right .row .col-md-3{
+	padding-top: 10%;
+}
+
+.content .right .row .col-md-3 p{
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+}
+
+.content .right .row .col-md-3 .active{
+	color: #0099ff;
+	border: 0;
+}
+
+.content .right .row .col-md-3:nth-child(4) p{
+	color: #bfbbbb;
+}
+
+.pagination{
+	float: right;
+}
+
+.pagination > li > a{
+	padding: 4px 10px;
+	border: 1px solid #ddd;
+}
+
+.pagination > li > a:hover{
+	border: 1px solid #0099ff;
+	color: #fff!important;
+	background: #0099ff;
+}
+
+.pagination > li{
+	float: left;
+	font-size: 18px;
+	margin-right: 14px;
+}
+
+.pagination > li > span{
+	padding: 6px 12px;
+	background-color:transparent;
+}
+
+.up{
+	margin-right: 28px!important;
+}
+
+.up > a{
+	border: 1px solid #0099ff!important;
+	color: #0099ff!important;
+}
+
+.pagination .active{
+	border: 1px solid #0099ff;
+	color: #fff;
+	background: #0099ff;
+}
+

@@ -1,0 +1,151 @@
+.content{
+	padding-top: 47px;
+	background: #f7f8f9;
+}
+
+.content .left{
+	width: 207px;
+	float: left;
+}
+
+.content .left .user{
+	overflow: hidden;
+	width: 207px;
+	background: #0066cc;
+	text-align: center;
+}
+
+.content .left .user p{
+	font-size: 18px;
+	color: #fff;
+	line-height: 53px;
+}
+
+.content .left .userList{
+	background: #fff;
+	overflow: hidden;
+	width: 207px;
+	padding-bottom: 48px;
+}
+
+.content .left .userList ul{
+	margin: 0 auto;
+	display: table;
+}
+
+.content .left .userList .listHeader a{
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	margin-left: 16px;
+	margin-top: 44px;
+}
+
+.content .left .userList ul li a{
+	font-size: 14px;
+	color: #666666;
+	margin-left: 37px;
+	line-height: 26px;
+}
+
+.content .left .userList .active{
+	color: #0099ff!important;
+}
+
+.content .left .userList ul li a:hover{
+	color: #0099ff;
+}
+
+.content .right{
+	overflow: hidden;
+	width: 936px;
+	float: right;
+	background: #fff;
+}
+
+.content .right .list_hd{
+	padding: 8px 12px;
+	overflow: hidden;
+	border-bottom: 1px solid #999999;
+	margin-bottom: 52px;
+}
+
+.content .right .list_hd p{
+	margin-right: 35px;
+	font-size: 16px;
+}
+
+.table tbody tr td, .table thead tr th{
+	text-align: center;
+	font-size: 14px;
+}
+
+.table thead tr th{
+	font-weight: bold;
+	border-bottom: 0;
+}
+
+.table thead tr{
+	border: 1px solid #cccccc;
+	background: #f5f5f5;
+}
+
+.table tbody tr td{
+	color: #434343;
+	cursor:pointer;
+	border: 0;
+	padding: 39px 8px;
+}
+
+.table tbody tr td button{
+	color: #0099ff;
+	background: 0;
+	border: 0;
+	outline: none;
+}
+
+.edit td{
+	color: #0099ff!important;
+}
+
+.pagination{
+	margin-left: 15%;
+}
+
+.pagination > li > a{
+	padding: 4px 10px;
+	border: 1px solid #ddd;
+}
+
+.pagination > li > a:hover{
+	border: 1px solid #0099ff;
+	color: #fff!important;
+	background: #0099ff;
+}
+
+.pagination > li{
+	float: left;
+	font-size: 18px;
+	margin-right: 14px;
+}
+
+.pagination > li > span{
+	padding: 6px 12px;
+	background-color:transparent;
+}
+
+.up{
+	margin-right: 28px!important;
+}
+
+.up > a{
+	border: 1px solid #0099ff!important;
+	color: #0099ff!important;
+}
+
+.pagination .active{
+	border: 1px solid #0099ff;
+	color: #fff;
+	background: #0099ff;
+}
+
