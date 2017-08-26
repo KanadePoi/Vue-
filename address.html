@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>订单</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/address.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/vue.min.js"></script>
+</head>
+<body>
+
+<div class="header" id="app1">
+	<page-top></page-top>
+</div>
+
+<div class="content" id="app">
+	<div class="container">
+		<div id="app3">
+			<container-left></container-left>	
+		</div>
+		<div class="right">
+			<div class="list_hd">
+				<p>地址管理</p>
+			</div>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>收货人姓名</th>
+						<th>所在地址</th>
+						<th>详细地址</th>
+						<th>邮箱</th>
+						<th>手机号码</th>
+						<th>操作</th>
+					</tr>
+			   </thead>
+			   <tbody>
+					<tr v-for="item in list" class="address" :class="item.edit">
+						<td>{{item.name}}</td>
+						<td>{{item.add}}</td>
+						<td>{{item.detailedAdd}}</td>
+						<td>{{item.postcode}}</td>
+						<td>{{item.phone}}</td>
+						<td><button>编辑</button> <button v-on:click="deleteShop(item)">删除</button></td>
+					</tr>
+				</tbody>
+			</table>
+				<nav aria-label="Page navigation">
+				  <ul class="pagination">
+				    <li class="up">
+				      <a href="#" aria-label="Previous">
+				        <span aria-hidden="true"><i class="fa fa-angle-left"></i>上一页</span>
+				      </a>
+				    </li>
+				    <li><a href="#">1</a></li>
+				    <li><a href="#">2</a></li>
+				    <li><a class="active" href="#">3</a></li>
+				    <li><a href="#">4</a></li>
+				    <li><a href="#">5</a></li>
+				    <li><span>... </span></li>
+				    <li>
+				      <a href="#" aria-label="Next">
+				        <span aria-hidden="true">下一页<i class="fa fa-angle-right"></i></span>
+				      </a>
+				    </li>
+				  </ul>
+				</nav>
+		</div>
+	</div>
+</div>
+
+<div class="footer" id="app2">
+	<page-bottom></page-bottom>
+</div>
+	
+<script type="text/javascript" src="js/address.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

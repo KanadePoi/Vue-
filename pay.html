@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>订单</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/pay.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/vue.min.js"></script>
+</head>
+<body>
+
+<div class="header" id="app1">
+	<page-top></page-top>
+</div>
+
+<div class="content" id="app">	
+	<div class="container">
+		<div v-for="item in array1">
+			<order-payment :item="item"></frist-component>
+		</div>
+
+		<div class="payment">
+			<div class="way">
+				<p>选择付款方式</p>
+			</div>
+			<div class="paymentType">
+				<p>网银支付</p>
+				<div class="cyberBank">
+					<ul>
+						<li class="bank" v-hide v-for="item in array2" ><div :class="item.class" class="choice"></div><img :src="item.image"></li>
+					</ul>
+				</div>
+				<p>平台支付</p>
+				<div class="dashed"></div>
+				<div class="platform">
+					<ul>
+						<li class="bank" v-for="item in array3"><div :class="item.class" v-hide class="choice"></div><img :src="item.image"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer" id="app2">
+	<page-bottom></page-bottom>
+</div>
+	
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/pay.js"></script>
+</body>
+</html>

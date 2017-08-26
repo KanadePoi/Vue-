@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>订单</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/order.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/vue.min.js"></script>
+	
+</head>
+<body>
+
+<div class="header" id="app1">
+	<page-top></page-top>
+</div>
+
+<div class="content">
+	<div class="container">
+		<div class="left">
+			<div class="user">
+				<p>会员中心</p>
+			</div>
+			<div class="userList">
+				<ul>
+					<li class="listHeader"><a href=""><img src="images/order01.png">个人中心</a></li>
+					<li><a href="">个人资料</a></li>
+					<li><a href="">收货地址</a></li>
+					<li><a href="">修改密码</a></li>
+					<li class="listHeader"><a class="active" href=""><img src="images/order02.png">订单中心</a></li>
+					<li><a href="">我的订单</a></li>
+					<li><a href="">团购订单</a></li>
+					<li><a href="">取消订单记录</a></li>
+					<li class="listHeader"><a href=""><img src="images/order03.png">关注中心</li>
+					<li><a href="">关注的商品</a></li>
+					<li><a href="">关注的活动</a></li>
+					<li class="listHeader"><a href=""><img src="images/order04.png">客户服务</a></li>
+					<li><a href="">退货|换货</a></li>
+					<li><a href="">价格保护</a></li>
+					<li><a href="">意见建议</a></li>
+					<li><a href="">购买咨询</a></li>
+					<li><a href="">售后服务</a></li>
+					<li class="listHeader"><a href=""><img src="images/order04.png">特色服务</a></li>
+					<li><a href="">我的预约</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="right">
+			<div class="orderList">
+				<ul>
+					<li><a href="">全部订单</a></li>
+					<li><a href="">待付款</a></li>
+					<li><a href="">待发货</a></li>
+					<li><a href="">待收货</a></li>
+					<li class="active"><a href="">待评价</a></li>
+					<li><a href="">已完成</a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<img src="images/order06.png">
+				</div>
+				<div class="col-md-4">
+					<p>XC级猎食者无人机/ 白色/ 12.5寸/ 多频
+					可视化操作手柄</p>
+					<span>【无人机收纳包】+8GSD卡+组装工具（小）</span>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-3">
+						<p>x1</p>
+					</div>
+					<div class="col-md-3">
+						<p>￥139.00</p>
+					</div>
+					<div class="col-md-3">
+						<p class="active">已签收</p>
+					</div>
+					<div class="col-md-3">
+						<p>订单详情 <i class="fa fa-angle-right"></i></p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<img src="images/order06.png">
+				</div>
+				<div class="col-md-4">
+					<p>XC级猎食者无人机/ 白色/ 12.5寸/ 多频
+					可视化操作手柄</p>
+					<span>【无人机收纳包】+8GSD卡+组装工具（小）</span>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-3">
+						<p>x1</p>
+					</div>
+					<div class="col-md-3">
+						<p>￥139.00</p>
+					</div>
+					<div class="col-md-3">
+						<p>已签收</p>
+					</div>
+					<div class="col-md-3">
+						<p>订单详情 <i class="fa fa-angle-right"></i></p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<img src="images/order06.png">
+				</div>
+				<div class="col-md-4">
+					<p>XC级猎食者无人机/ 白色/ 12.5寸/ 多频
+					可视化操作手柄</p>
+					<span>【无人机收纳包】+8GSD卡+组装工具（小）</span>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-3">
+						<p>x1</p>
+					</div>
+					<div class="col-md-3">
+						<p>￥139.00</p>
+					</div>
+					<div class="col-md-3">
+						<p>已签收</p>
+					</div>
+					<div class="col-md-3">
+						<p>订单详情 <i class="fa fa-angle-right"></i></p>
+					</div>
+				</div>
+			</div>
+				<nav aria-label="Page navigation">
+				  <ul class="pagination">
+				    <li class="up">
+				      <a href="#" aria-label="Previous">
+				        <span aria-hidden="true"><i class="fa fa-angle-left"></i>上一页</span>
+				      </a>
+				    </li>
+				    <li><a href="#">1</a></li>
+				    <li><a href="#">2</a></li>
+				    <li><a class="active" href="#">3</a></li>
+				    <li><a href="#">4</a></li>
+				    <li><a href="#">5</a></li>
+				    <li><span>... </span></li>
+				    <li>
+				      <a href="#" aria-label="Next">
+				        <span aria-hidden="true">下一页<i class="fa fa-angle-right"></i></span>
+				      </a>
+				    </li>
+				  </ul>
+				</nav>
+		</div>
+	</div>
+</div>
+
+<div class="footer" id="app2">
+	<page-bottom></page-bottom>
+</div>
+	
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>
